@@ -1,8 +1,8 @@
 
 :root {
 
-    --logo: black;
-    --fundo: #fefbd8;
+    --logo: rgb(0, 0, 0);
+    --fundo: grey;
 
 
 }
@@ -13,8 +13,6 @@
     padding: 0;
     box-sizing: border-box
 }
-
-
 
 /* base */
 
@@ -34,13 +32,10 @@ header .container {
 
 }
 
-.logo {
-margin-left: 5px;
-color: var(--logo);
-font-family: 'Comic Sans';
-font-size: 40px;
-margin-bottom: 10px;
 
+
+.navbar {
+    margin-bottom: 15px;
 }
 
 
@@ -63,6 +58,7 @@ header nav a:hover {
 main .jogoprincipal {
 
         font-size: 16px;
+        color: white;
         background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('../img/principal1.jpg');
         
         height: 400px;
