@@ -1,0 +1,159 @@
+
+:root {
+
+    --logo: black;
+    --fundo: #fefbd8;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+/* base */
+
+
+body {
+    background: var(--fundo);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+margin-left: 5px;
+color: var(--logo);
+font-family: 'Comic Sans';
+font-size: 40px;
+margin-bottom: 10px;
+
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+
+    color: black;
+}
+
+
+
+/* filme principal */
+
+
+main .jogoprincipal {
+
+        font-size: 16px;
+        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('../img/principal1.jpg');
+        
+        height: 400px;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 50px;
+}
+
+.jogoprincipal .descricao {
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+}
+
+.jogoprincipal .titulo {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.botao {
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover {
+
+    background-color: rgba(50,50,50,50)
+}
+
+.container {
+
+    margin-left: 10px;
+
+}
+
+.jogoprincipal .container {
+
+    width: 70%;
+    
+}
+
+.box-jogo {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-jogos {
+
+    margin-top: 5px;
+
+}
+
+
+.item {
+
+    background-size: cover;
+   
+}
+
+
+.categoria {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+footer {
+    
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* mudança de tela ao clicar na barra de rolagem */
+

@@ -1,81 +1,173 @@
-<!DOCTYPE html> <html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<title>LojasTiago</title> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://stackpath.bootstrap-cdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384--ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> </head> 
- <!-- Latest compiled and minified CSS -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
- <!-- Latest compiled JavaScript -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+        <title>LOJINHA DO TIGAO</title>
+       
+        
+</head>
 <body>
-<div style="margin-bottom: 20px;">
-
-     <!-- Top nav bar -->
-     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:void(0)">LojasTiago</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Hardware</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Games</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Aplicativos</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="text" placeholder="Digite aqui o que procura">
-              <button class="btn btn-primary" type="button">Buscar</button>
-            </form>
-          </div>
+    <header>
+        <div class="container">
+            <h2 class="logo">LOJINHA DO TIAGO</h2>
+                
+            <nav>
+                <a href="0">Início</a>
+                <a href="https://www.nintendo.com" target="_blank">Jogos</a>
+                <a href="https://www.atari.com" target="_blank">Aplicativos</a>
+                <a href="https://www.pcgamer.com" target="_blank">Hardware</a>
+            </nav>
         </div>
-      </nav> 
-    
-</div>
-    <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel", style="border-style: solid; border-color: black;">
+    </header>
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-  
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/rdredemption.jpg" alt="Red Dead Redemption 2" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="img/newvegas.jpg" alt="Fallout: New Vegas" class="d-block w-100">
-      </div>
-      <div class="carousel-item">
-        <img src="age of empires.jpg" alt="Age of Empires" class="d-block w-100">
-      </div>
-    </div>
-  
-   <div>  
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
+    <h2>Destaques</h2>
+    <p>O que está bombando na nossa lojinha</p>
 
+
+    <main>
+      <div class="jogoprincipal">
+            <div class="banner">
+                <h3 class="titulo">Super Mario World</h3>
+                <p class="descricao">Relembre um dos principais clássicos do Super Nintendo</p>
+                <div class=botoes>
+                    <button role="button" class="botao" onclick="redirecionar1()">
+                        COMPRAR
+                    </button>
+              
+                    <button role="button" class="botao" onclick="redirecionar2()">
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+
+            </div>
+
+          
+
+      </div>
+
+      
+
+    </main>
+
+
+    <p class="categoria">SUPER NINTENDO</p>
+
+   <div class="carrossel-jogos">
+        <div class="owl-carousel owl-theme">
+            <div class="item" id="mini1">
+                <img class="box-jogo" src="img/mini1.jpg">
+            </div>
+            <div class="item" id="mini2">
+                <img class="box-jogo" src="img/mini2.jpg">
+            </div>
+            <div class="item" id="mini3">
+                <img class="box-jogo" src="img/mini3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini7.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini9.jpg">
+            </div>
+            <div class="item">
+                <img class="box-jogo" src="img/mini10.jpg">
+            </div>
+
+            
+
+        </div>
+   </div>
+
+
+
+<p class="categoria">ATARI</p>
+
+<div class="carrossel-jogos">
+ <div class="owl-carousel owl-theme">
+     <div class="item" id="mini1">
+         <img class="box-jogo" src="img/mini21.jpg">
+     </div>
+     <div class="item" id="mini2">
+         <img class="box-jogo" src="img/mini22.jpg">
+     </div>
+     <div class="item" id="mini3">
+         <img class="box-jogo" src="img/mini23.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini24.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini25.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini26.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini27.jpg">
+     </div>
+         
+
+ </div>
 </div>
+
+<p class="categoria">PC</p>
+
+<div class="carrossel-jogos">
+ <div class="owl-carousel owl-theme">
+     <div class="item" id="mini1">
+         <img class="box-jogo" src="img/mini11.jpg">
+     </div>
+     <div class="item" id="mini2">
+         <img class="box-jogo" src="img/mini12.jpg">
+     </div>
+     <div class="item" id="mini3">
+         <img class="box-jogo" src="img/mini13.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini14.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini15.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini16.jpg">
+     </div>
+     <div class="item">
+         <img class="box-jogo" src="img/mini17.jpg">
+     </div>
+         
+
+ </div>
+</div>
+
+
+
+    <footer>Projeto usado para treinamento em HTML, CSS e Java. Qualquer semelhança com a realidade é mera coincidência.</footer>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-<footer>
 
-</footer> 
 </html>

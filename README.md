@@ -1,5 +1,11 @@
-# e-commerce
-Portal de e-commerce
----------------------------------
+Lojinha do Tiago
+--------------------------
 
-Projeto pra treinar Node.js em início
+É um site de uma lojinha de hardware, games e apps
+
+
+Como usar
+-------------------------
+
+- baixe o repositório  
+- execute index.html
