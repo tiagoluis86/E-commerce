@@ -59,7 +59,7 @@ main .jogoprincipal {
 
         font-size: 16px;
         color: white;
-        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('../img/principal1.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('../img/cs.png');
         
         height: 400px;
         background-size: cover;
@@ -147,7 +147,7 @@ footer {
     
     font-family: sans-serif;
     font-size: 12px;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px;
 }
 
