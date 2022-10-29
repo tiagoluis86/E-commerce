@@ -6,7 +6,9 @@ function buscarProdutos() {
     
 }
 
-
-function comprarProdutos() {
-    alert("Compra solicitada")
+/* Conhece o jogo selecionado para adicionar ao carrinho */
+var call = function(elementId)
+{
+    var game = document.getElementById(elementId).id
+    alert(`Você está adicionando ao carrinho: ${game}`);
 }
