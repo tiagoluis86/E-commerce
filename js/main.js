@@ -28,13 +28,13 @@ class Header extends HTMLElement {
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Games</a>
+              <a class="nav-link" href="games.html">Games</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Apps</a>
+              <a class="nav-link" href="apps.html">Apps</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Hardware</a>
+              <a class="nav-link" href="hardware.html">Hardware</a>
             </li>
           </ul>     
           <form class="d-flex" id="search_form" onsubmit="return buscarProdutos()">
