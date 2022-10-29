@@ -21,7 +21,7 @@ class Header extends HTMLElement {
       this.innerHTML = `
       <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Lojinha do Tiago</a>
+        <a class="navbar-brand" href="/">Lojinha do Tiago</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,8 +66,7 @@ class Header extends HTMLElement {
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" placeholder="email@dominio.com.br"><br><br>
             <input type="submit" value="Enviar">
-          </form>
-
+          </form>       
 
         </footer>     
       `;
