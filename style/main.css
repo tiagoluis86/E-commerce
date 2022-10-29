@@ -50,8 +50,6 @@ header nav a:hover {
     color: black;
 }
 
-
-
 /* filme principal */
 
 
@@ -144,11 +142,13 @@ main .jogoprincipal {
 }
 
 footer {
-    
+    padding: 5px;
+    background-color: rgb(185, 166, 166);
     font-family: sans-serif;
     font-size: 12px;
     margin-top: 90px;
     margin-bottom: 50px;
+    text-align:center;
 }
 
 /* mudança de tela ao clicar na barra de rolagem */

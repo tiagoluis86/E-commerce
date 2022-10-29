@@ -14,12 +14,10 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> 
 
-
-        <title>LOJINHA DO TIGAO</title>
-       
+        <title>LOJINHA DO TIGAO</title>       
         
 </head>
-<body>
+<body onload="alertUser('Welcome to Lojinha of Tiago')">
     <header>
         
 <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -39,15 +37,15 @@
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0)">Hardware</a>
           </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="text" placeholder="O que você procura?">
-          <button class="btn btn-primary" type="button">Buscar</button>
+        </ul>     
+        <form class="d-flex" id="search_form" onsubmit="return buscarProdutos()">
+          <input class="form-control me-2" type="text" id="search_textbox" placeholder="O que você procura?">
+          <input class="btn btn-primary" type="submit" value="Buscar">Buscar</input>
         </form>
       </div>
     </div>
   </nav> 
-    </header>
+    </header>   
 
     <h2>Destaques</h2>
     <p>O que está bombando na nossa lojinha</p>
@@ -119,71 +117,19 @@
         </div>
    </div>
 
+    <footer>Esse site é um projeto de ficção, qualquer semelhança com a realidade é mera coincidência
+
+        <p>Cadastre seu e-mail e fique por dentro das novidades</p>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="name" value="José da Silva"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email@dominio.com.br"><br><br>
+            <input type="submit" value="Enviar">
+          </form>
 
 
-<p class="categoria">APPS</p>
-
-<div class="carrossel-jogos">
- <div class="owl-carousel owl-theme">
-     <div class="item" id="mini1">
-         <img class="box-jogo" src="img/winrar.jpeg">
-     </div>
-     <div class="item" id="mini2">
-         <img class="box-jogo" src="img/money.jpeg">
-     </div>
-     <div class="item" id="mini3">
-         <img class="box-jogo" src="img/whatsapp.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/libre office.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/winrar.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/money.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/whatsapp.jpeg">
-     </div>
-         
-
- </div>
-</div>
-
-<p class="categoria">HARDWARE</p>
-
-<div class="carrossel-jogos">
- <div class="owl-carousel owl-theme">
-     <div class="item" id="mini1">
-         <img class="box-jogo" src="img/impressora.jpeg">
-     </div>
-     <div class="item" id="mini2">
-         <img class="box-jogo" src="img/monitor.jpeg">
-     </div>
-     <div class="item" id="mini3">
-         <img class="box-jogo" src="img/teclado.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/computador.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/impressora.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/monitor.jpeg">
-     </div>
-     <div class="item">
-         <img class="box-jogo" src="img/teclado.jpeg">
-     </div>
-         
-
- </div>
-</div>
-
-
-
-    <footer>Esse site é um projeto de ficção, qualquer semelhança com a realidade é mera coincidência</footer>
+    </footer>
 
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
