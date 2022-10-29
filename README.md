@@ -11,3 +11,10 @@ Como usar
 
 - baixe o repositório  
 - execute index.html
+
+Para dar uma olhadinha
+-------------------------
+
+Esse projeto está sempre atualizado no nelify, você pode conferir aqui:
+
+https://lojinhadotiago.netlify.app/
