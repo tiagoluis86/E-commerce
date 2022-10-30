@@ -3,7 +3,7 @@ Lojinha do Tiago
 
 É um site de uma lojinha de hardware, games e apps, feito com Javascript (jQuery e Bootstrap), HTML e CSS.
 
-![image](https://user-images.githubusercontent.com/70555750/198737117-7993d0d7-00bb-40f6-b92b-d72e179d41a0.png)
+![image](https://user-images.githubusercontent.com/70555750/198892654-0ad4c5da-5531-424c-b98a-a15a6ab029c2.png)
 
 
 Como usar
