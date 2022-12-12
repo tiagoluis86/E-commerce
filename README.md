@@ -18,3 +18,7 @@ Para dar uma olhadinha
 Esse projeto está sempre atualizado no netlify, você pode conferir aqui:
 
 https://lojinhadotiago.netlify.app/
+
+O que tem agora
+------------------------
+Por enquanto o frontend
